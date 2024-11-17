@@ -10,7 +10,7 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:5173' })); // Adjust frontend URL
+app.use(cors({ origin: 'https://admin-dashboard-omega-rust.vercel.app/' })); // Adjust frontend URL
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
