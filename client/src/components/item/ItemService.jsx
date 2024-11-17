@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/items';
+const API_URL = 'https://admin-dashboard-ab6k.onrender.com/api/items';
 
 export const fetchItems = async (token) => {
   const response = await fetch(API_URL, {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth'; // Adjust based on your backend URL
+const API_URL = 'https://admin-dashboard-ab6k.onrender.com/api/auth'; // Adjust based on your backend URL
 
 const apiClient = axios.create({
   baseURL: API_URL,
